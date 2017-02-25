@@ -33,4 +33,14 @@ public class User {
 	public void setNickName(String nickName) {
 		this.nickName = nickName;
 	}
+
+	//TODO: keep an eye o this, it may be need to be replaced by a builder pattern
+	public static User create(String firstName, String lastName, String nickName) {
+		User user = new User();
+		user.setNickName(nickName);
+		user.setFirstName(firstName);
+		user.setLastName(lastName);
+
+		return user;
+	}
 }
