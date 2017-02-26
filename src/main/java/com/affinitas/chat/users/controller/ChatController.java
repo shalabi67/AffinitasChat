@@ -1,10 +1,9 @@
 package com.affinitas.chat.users.controller;
 
-import java.util.Date;
-import java.util.Map;
-
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+
+import java.util.Map;
 
 /**
  * ChatControoler is an MVC spring controller used for demo purpose and creates to UI for User 1 and User 2

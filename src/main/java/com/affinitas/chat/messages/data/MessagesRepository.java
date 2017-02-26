@@ -1,9 +1,7 @@
 package com.affinitas.chat.messages.data;
 
-import com.affinitas.chat.users.data.User;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
