@@ -45,13 +45,4 @@ public class Message {
 		if (!toUser.equals(message1.toUser)) return false;
 		return message.equals(message1.message);
 	}
-
-	@Override
-	public int hashCode() {
-		int result = messageId;
-		result = 31 * result + fromUser.hashCode();
-		result = 31 * result + toUser.hashCode();
-		result = 31 * result + message.hashCode();
-		return result;
-	}
 }
